@@ -7,7 +7,7 @@ html {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f8f9fb;
+  background-color: white;
   color: #222;
   line-height: 1.7;
 }
@@ -17,7 +17,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #1f2937;
+  background-color: #111827;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,12 +46,12 @@ nav {
   opacity: 0.7;
 }
 
-/* SECTIONS */
+/* GENERAL SECTION STYLING */
 section {
   min-height: 100vh;
   padding: 120px 14%;
   box-sizing: border-box;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 /* HERO SECTION */
@@ -77,7 +77,7 @@ h1 {
 h2 {
   font-size: 38px;
   margin-bottom: 30px;
-  color: #1f2937;
+  color: #111827;
 }
 
 h3 {
@@ -93,8 +93,38 @@ h3 {
   padding: 24px;
   margin-bottom: 25px;
   border-radius: 10px;
-  border-left: 5px solid #2563eb;
+  border-left: 6px solid #2563eb;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* SECTION COLORS */
+
+#home {
+  background-color: #f9fafb;
+}
+
+#topic {
+  background-color: #eff6ff;
+}
+
+#stigma {
+  background-color: #fef2f2;
+}
+
+#healthcare {
+  background-color: #ecfdf5;
+}
+
+#theory {
+  background-color: #f5f3ff;
+}
+
+#examples {
+  background-color: #fff7ed;
+}
+
+#conclusion {
+  background-color: #f3f4f6;
 }
 
 /* MOBILE RESPONSIVE */
