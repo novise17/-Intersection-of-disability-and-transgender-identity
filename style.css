@@ -55,7 +55,8 @@ h2 {
 }
 
 /* CONTENT BOX */
-.content-box {
+.content-box,
+.box {
   background: white;
   padding: 20px;
   margin: 20px 0;
@@ -64,7 +65,7 @@ h2 {
   border-radius: 10px;
 }
 
-/* IMAGES */
+/* GENERAL IMAGES */
 img {
   max-width: 100%;
   height: auto;
@@ -72,6 +73,41 @@ img {
   margin-bottom: 15px;
   border-radius: 10px;
   object-fit: contain;
+}
+
+/* HERO IMAGE (FIRST IMAGE BIGGER) */
+#home img {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto 25px auto;
+}
+
+/* CEREBRAL PALSY SECTION IMAGES */
+#topic img {
+  width: 350px;
+  max-width: 100%;
+  margin: 0 auto 20px auto;
+}
+
+/* STIGMA SECTION IMAGES */
+#stigma img {
+  width: 400px;
+  max-width: 100%;
+  margin: 0 auto 20px auto;
+}
+
+/* HEALTHCARE SECTION IMAGES */
+#healthcare img {
+  width: 400px;
+  max-width: 100%;
+  margin: 0 auto 20px auto;
+}
+
+/* GRAPH IMAGES */
+img[src*="transdata"] {
+  width: 600px;
+  max-width: 100%;
+  margin: 25px auto;
 }
 
 /* Broken image fallback styling */
@@ -83,13 +119,37 @@ img:broken {
 }
 
 /* SECTION COLORS */
-#home { background: #f9fafb; }
-#topic { background: #eef2ff; }
-#stigma { background: #fff1f2; }
-#healthcare { background: #ecfeff; }
-#theory { background: #f5f3ff; }
-#examples { background: #fff7ed; }
-#conclusion { background: #f3f4f6; }
+#home {
+  background: #f9fafb;
+}
+
+#topic {
+  background: #eef2ff;
+}
+
+#stigma {
+  background: #fff1f2;
+}
+
+#healthcare {
+  background: #ecfeff;
+}
+
+#theory {
+  background: #f5f3ff;
+}
+
+#examples {
+  background: #fff7ed;
+}
+
+#sources {
+  background: #f8fafc;
+}
+
+#conclusion {
+  background: #f3f4f6;
+}
 
 /* MOBILE */
 @media (max-width: 900px) {
@@ -98,6 +158,32 @@ img:broken {
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  #home img,
+  #topic img,
+  #stigma img,
+  #healthcare img,
+  img[src*="transdata"] {
+    width: 100%;
   }
 }
