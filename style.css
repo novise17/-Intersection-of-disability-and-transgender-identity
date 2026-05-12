@@ -54,6 +54,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+h3 {
+  margin-top: 10px;
+}
+
 /* CONTENT BOX */
 .content-box,
 .box {
@@ -75,32 +79,25 @@ img {
   object-fit: contain;
 }
 
-/* HERO IMAGE (FIRST IMAGE BIGGER) */
-#home img {
-  width: 500px;
+/* ONLY GREEN BRAIN IMAGE BIGGER */
+img[src*="CerebralPalsy.png"] {
+  width: 520px;
   max-width: 100%;
   margin: 0 auto 25px auto;
 }
 
-/* CEREBRAL PALSY SECTION IMAGES */
+/* TOPIC SECTION IMAGES */
 #topic img {
-  width: 350px;
+  width: 340px;
   max-width: 100%;
-  margin: 0 auto 20px auto;
+  margin: 20px auto;
 }
 
 /* STIGMA SECTION IMAGES */
 #stigma img {
-  width: 400px;
+  width: 360px;
   max-width: 100%;
-  margin: 0 auto 20px auto;
-}
-
-/* HEALTHCARE SECTION IMAGES */
-#healthcare img {
-  width: 400px;
-  max-width: 100%;
-  margin: 0 auto 20px auto;
+  margin: 20px auto;
 }
 
 /* GRAPH IMAGES */
@@ -110,7 +107,7 @@ img[src*="transdata"] {
   margin: 25px auto;
 }
 
-/* Broken image fallback styling */
+/* BROKEN IMAGE FALLBACK */
 img:broken {
   background: #f0f0f0;
   border: 2px solid #ccc;
@@ -153,6 +150,7 @@ img:broken {
 
 /* MOBILE */
 @media (max-width: 900px) {
+
   section {
     padding: 100px 8%;
   }
@@ -179,11 +177,7 @@ img:broken {
     margin: 5px;
   }
 
-  #home img,
-  #topic img,
-  #stigma img,
-  #healthcare img,
-  img[src*="transdata"] {
-    width: 100%;
+  img {
+    width: 100% !important;
   }
 }
