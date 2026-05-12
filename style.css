@@ -88,21 +88,21 @@ img[src*="CerebralPalsy.png"] {
 
 /* TOPIC SECTION IMAGES */
 #topic img {
-  width: 100px;
+  width: 175px;
   max-width: 100%;
   margin: 20px auto;
 }
 
 /* STIGMA SECTION IMAGES */
 #stigma img {
-  width: 100px;
+  width: 150px;
   max-width: 100%;
   margin: 20px auto;
 }
 
 /* GRAPH IMAGES */
 img[src*="transdata"] {
-  width: 100px;
+  width: 175px;
   max-width: 100%;
   margin: 25px auto;
 }
