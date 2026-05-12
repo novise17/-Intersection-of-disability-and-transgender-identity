@@ -93,6 +93,13 @@ img[src*="CerebralPalsy.png"] {
   margin: 20px auto;
 }
 
+img[src*="causecp.png"] {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  margin: 15px auto;
+  display: block;
+}
 /* STIGMA SECTION IMAGES */
 #stigma img {
   width: 200px;
