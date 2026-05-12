@@ -81,21 +81,21 @@ img {
 
 /* ONLY GREEN BRAIN IMAGE BIGGER */
 img[src*="CerebralPalsy.png"] {
-  width: 150px;
+  width: 200px;
   max-width: 100%;
   margin: 0 auto 25px auto;
 }
 
 /* TOPIC SECTION IMAGES */
 #topic img {
-  width: 175px;
+  width: 200px;
   max-width: 100%;
   margin: 20px auto;
 }
 
 /* STIGMA SECTION IMAGES */
 #stigma img {
-  width: 150px;
+  width: 200px;
   max-width: 100%;
   margin: 20px auto;
 }
